@@ -7,7 +7,6 @@ lshw procinfo
 dump reiserfsprogs xfsprogs xfsdump btrfs-progs  dosfstools
 hwinfo hdparm smartmontools
 subversion rdate
-emacs25-nox
 numactl
 dnsutils
 netcat-traditional nmap
@@ -17,7 +16,9 @@ usbutils pciutils
 ssh
 netselect
 mdadm
-#git # git consumes a lot of disk space on the FAI CD
+git # git consumes a lot of disk space on the FAI CD
+crypsetup
+tmux
 
 
 PACKAGES install-norec
